@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar start here  */
+.navbar-wrapper{
+  background-color: aquamarine;
+}
+.navbar-main{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  color: red;
+  font-weight: bold;
+}
+.nav-menu-btn{
+  background-color: black;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.ham-burger{
+  display: none;
+  color: black;
+}
+/* navbar ends here  */
+
+/* banner-section-starts here  */
+.main-content{
+  border: 2px solid red;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(242, 242, 242);
+}
+.banner-childs{
+  /* border: 2px solid green; */
+  width: 47%;
+  position: relative;
+  margin-top: 20px;
+}
+.banner-childs img{
+  width: 100%;
+  border-radius: 10px;
+}
+.banner-btn{
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 900;
+}
+.fifty-off{
+  background-color: rgba(0, 0, 0, 0.779);
+  color: white;
+  width: fit-content;
+  padding: 20px 60px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  position: absolute;
+  top: 45%;
+  left: 32%;
+}
+/* banner-section ends here  */
+
+/* popular section start  */
+.card{
+  padding: 10px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.296) ;
+}
+.card img {
+  width: 100%;
+  
+  border-radius: 10px;
+}
+.popular-main{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.odvut-main{
+  border: 2px solid green;
+  min-height: 200px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(12,1fr);
+
+}
+.odvut-child-1{
+ background-color: red;
+ grid-column: 1/span 7;
+ grid-row: 1/span 6;
+ border-radius: 70px;
+
+}
+.odvut-child-2{
+ background-color: green;
+ grid-column: 8/span 5;
+border-radius: 70px;
+}
+.odvut-child-3{
+background-color: blue;
+grid-column: 1/span 5;
+border-radius: 70px;
+}
+.odvut-child-4{
+background-color: aquamarine;
+grid-column: 6/span 7;
+border-radius: 70px;
+}
+.odvut-main img{
+  width: 100%;
+  height: 100%;
+}
+
